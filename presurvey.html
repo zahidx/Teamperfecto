@@ -17,7 +17,7 @@
 <body> 
 
   <!-- navbar section started -->
-  <div class="navbar-item">
+  <div class="navbar-item  fixed-top">
 
   <nav class="navbar navbar-expand-lg">
     <div class="container-fluid ">
@@ -85,34 +85,113 @@
     <!-- navbar section Ended -->
     <section class="bg-img">
 
-        
-<!-- under con -->
-<div class="background"></div>
-<div class="container under">
-    <div class="top">
-        <hr>
-        <p>Team Perfecto</p>
-        <hr>
-    </div>
-    <div class="bottom-c">
-    <h1> This Site Is UNDER CONSTRUCTION</h1>
-    <h1>PROGRESS</h1>
-    </div>
-    <div class="progress-wrapper">
-        <div class="progress"><span>0%</span></div>
-    </div>
-    <div class="social-icons bg-dark ">
-        <a href="https://www.facebook.com/zahidxc/"><i class="fab fa-facebook"></i></a>
-        <a href="#your-twitter-profile"><i class="fab fa-twitter"></i></a>
-        <a href="https://www.linkedin.com/in/zahid-islam-53a33a202/"><i class="fab fa-linkedin-in"></i></a>
-        <a href="#your-instagram-page"><i class="fab fa-instagram"></i></a>
-        <a href="#your-youtube-page"><i class="fab fa-youtube"></i></a>
-        <a href="#rss"><i class="fas fa-rss"></i></a>
+      
 
-    </div>
+
+      <div class="main-pre">
+
+        <h5>Survey questionnaire</h5>
+        <form>
+
+          <div class="age-div">
+          <label for="age">Age Range:</label>
+        <select id="age" name="age">
+          <option value="18-24">18-24</option>
+          <option value="25-34">25-34</option>
+          <option value="35-44">35-44</option>
+          <option value="45-54">45-54</option>
+          <option value="55-64">55-64</option>
+        </select>
+
+        <label for="occupation">Occupation:</label>
+        <input type="text" id="occupation" name="occupation">
+      </div>
+
+
+
+          <br><br><h4>1. How familiar are you with IoT technology?</h4>
+          <input type="radio" id="q1a" name="q1" value="a">
+          <label for="q1a">Very familiar</label><br>
+          <input type="radio" id="q1b" name="q1" value="b">
+          <label for="q1b">Somewhat familiar</label><br>
+          <input type="radio" id="q1c" name="q1" value="c">
+          <label for="q1c">Not at all familiar</label><br><br>
+    
+          <h4>2. How important do you think food quality monitoring is?</h4>
+          <input type="radio" id="q2a" name="q2" value="a">
+          <label for="q2a">Extremely important</label><br>
+          <input type="radio" id="q2b" name="q2" value="b">
+          <label for="q2b">Moderately important</label><br>
+          <input type="radio" id="q2c" name="q2" value="c">
+          <label for="q2c">Slightly important</label><br>
+          <input type="radio" id="q2d" name="q2" value="d">
+          <label for="q2d">Not important at all</label><br><br>
+    
+          <h4>3. Have you ever experienced food contamination or spoilage?</h4>
+          <input type="radio" id="q3a" name="q3" value="a">
+          <label for="q3a">Yes</label><br>
+          <input type="radio" id="q3b" name="q3" value="b">
+          <label for="q3b">No</label><br><br>
+    
+          <h4>4. How do you currently monitor food quality?</h4>
+          <input type="checkbox" id="q4a" name="q4" value="a">
+          <label for="q4a">Visual inspection</label><br>
+          <input type="checkbox" id="q4b" name="q4" value="b">
+          <label for="q4b">Smell</label><br>
+          <input type="checkbox" id="q4c" name="q4" value="c">
+          <label for="q4c">Taste</label><br>
+          <input type="checkbox" id="q4d" name="q4" value="d">
+          <label for="q4d">All of the above</label><br>
+          <input type="checkbox" id="q4e" name="q4" value="e">
+          <label for="q4e">None of the above</label><br><br>
+    
+          <h4>5. Have you ever used an IoT-based food quality monitoring system?</h4>
+          <input type="radio" id="q5a" name="q5" value="a">
+          <label for="q5a">Yes</label><br>
+          <input type="radio" id="q5b" name="q5" value="b">
+          <label for="q5a">NO</label><br><br>
+
+    <h4>6. What features do you think are important for an IoT-based food quality monitoring system?</h4>
+		<input type="checkbox" name="features" value="real-time-monitoring"> Real-time monitoring<br>
+		<input type="checkbox" name="features" value="automatic-alerts"> Automatic alerts for abnormal conditions<br>
+		<input type="checkbox" name="features" value="data-analysis"> Data analysis and reporting<br>
+		<input type="checkbox" name="features" value="easy-to-use-interface"> Easy to use interface<br>
+		<input type="checkbox" name="features" value="all-of-the-above"> All of the above<br>
+		<input type="checkbox" name="features" value="none-of-the-above"> None of the above<br><br>
+
+		<h4>7. How much would you be willing to pay for an IoT-based food quality monitoring system?</h4>
+		<input type="radio" name="price" value="less-than-50"> Less than $50<br>
+		<input type="radio" name="price" value="50-to-100"> $50 to $100<br>
+		<input type="radio" name="price" value="100-to-200"> $100 to $200<br>
+		<input type="radio" name="price" value="more-than-200"> More than $200<br><br>
+
+		<h4>8. How frequently do you think the system should collect and report data?</h4>
+		<input type="radio" name="frequency" value="every-minute"> Every minute<br>
+		<input type="radio" name="frequency" value="every-5-minutes"> Every 5 minutes<br>
+		<input type="radio" name="frequency" value="every-15-minutes"> Every 15 minutes<br>
+		<input type="radio" name="frequency" value="every-hour"> Every hour<br>
+		<input type="radio" name="frequency" value="daily"> Daily<br><br>
+
+		<h4>9. How do you think the system should alert users of abnormal conditions?</h4>
+		<input type="checkbox" name="alerts" value="email-notification"> Email notification<br>
+		<input type="checkbox" name="alerts" value="sms-notification"> SMS notification<br>
+		<input type="checkbox" name="alerts" value="mobile-app-notification"> Push notification to a mobile app<br>
+		<input type="checkbox" name="alerts" value="all-of-the-above"> All of the above<br>
+		<input type="checkbox" name="alerts" value="none-of-the-above"> None of the above<br><br>
+
+		<h4>10. What type of food products do you think this system would be most useful for?</h4>
+		<input type="checkbox" name="food-type" value="dairy-products"> Dairy products<br>
+		<input type="checkbox" name="food-type" value="meat-products"> Meat products<br>
+		<input type="checkbox" name="food-type" value="fruits-and-vegetables"> Fruits and vegetables<br>
+		<input type="checkbox" name="food-type" value="all-of-the-above"> All of the above<br>
+
+   
+
 </div>
-<!-- under cons -->
-        
+<div class="btn-div">
+<input type="submit" value="Submit">
+<br><br>
+</div>
 
     </section>
 

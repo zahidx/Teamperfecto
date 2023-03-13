@@ -719,6 +719,9 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
     margin-top: 15px;
  }
 
+.mar-body{
+    margin-left: 48%!important;
+}
 
 .card{
     margin: 2% 6% 0 6%;
@@ -860,9 +863,99 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
 /* litarature review name page style end */
 
 
+/* Eqipment section st */
+.compo{
+    margin: 2% 5% 0 2%;
+}
+
+.card .com-img img{
+    width: 78%;
+    height: auto;
+    margin-left: 20%;
+}
+
+.com-body h4{
+    font-size: 1.5vw;
+    font-weight: 600;
+    color: #0a6ed2;
+    margin-top: 30px;
+}
+
+.com-body p{
+    text-align: justify;
+    color: rgb(0, 0, 0)!important;
+}
+
+.com-head h2{
+    font-size: 4vw;
+    font-weight: 700;
+    color: #0a6ed2;
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: #19a09b 0px 0px 2px;
+
+}
+
+
+/* presurvey stated */
+.main-pre{
+    font-size: 16px!important;
+    text-align: justify;
+    margin-left: 10%;
+  }
+
+
+.main-pre h5{
+        font-size: 55px!important;
+        color: rgb(7, 32, 130)!important;
+        margin-top: 15px;
+        text-align: center!important;
+        margin-bottom: 40px;
+        margin-top: 70px;
+}
 
 
 
+.main-pre input{
+    margin-left: 2%;
+    
+}
+
+.main-pre label{
+    font-size: 18px!important;
+    color: rgb(0, 0, 0)!important;
+    margin-left: 0.5%;
+}
+
+.age-div label{
+    font-size: 22px!important;
+    color: rgb(0, 0, 0)!important;
+    margin-left: 0.5%;
+    font-weight: 500;
+}
+
+
+.btn-div input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+.btn-div input[type="submit"]:hover {
+    background-color: #0062cc;
+  }
+
+  .btn-div{
+        margin-top: 10px;
+        margin-bottom: 50px;
+        text-align: center;
+  }
 
 
 
