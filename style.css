@@ -959,6 +959,41 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
 
 
 
+/* block diagram section */
+.block-haed-img img{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+    width: 90%;
+    height: 85%;
+    margin-left: 30px;
+}
+
+.block-haed h2{
+    margin-top: 70px;
+}
+
+/* goals and benefit */
+.my-goal h3{
+    text-align: justify;
+    margin-left: 10%;
+}
+
+.my-goal h2{
+    text-align: center;
+}
+
+.goals h4{
+    font-size: 20px;
+    font-weight: 600;
+    color: #0a6ed2;
+    margin-top: 30px;
+    margin-left: 10%;
+}
+
+
+
+
 
 
 
