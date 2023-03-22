@@ -870,6 +870,10 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
 .main-pre-final iframe{
     border: none!important;
 }
+
+iframe{
+    border: none!important;
+}
 /* litarature review name page style end */
 
 
@@ -970,6 +974,12 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
     margin-top: 15px!important;
     text-align: center;
     align-items: center;
+}
+
+.dht_div img{
+    width: 50%;
+    height: auto;
+    margin-left: 28%;
 }
 
 
