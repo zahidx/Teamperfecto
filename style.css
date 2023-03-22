@@ -983,6 +983,19 @@ iframe{
 }
 
 
+.p-color h2{
+    color: white!important;
+
+}
+
+.p-color a{
+    color: rgb(136, 151, 234)!important;
+    font-size: 32px;
+    text-decoration: none!important;
+    
+
+}
+
 
 
 
