@@ -852,13 +852,23 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
 .name-main-div{
     background-color: #31413f;
     margin: 0 25% 0 25%;
-    height: 600px;
+    height: 700px;
     border-radius: 0 0 10px 10px;
 }
 
 .p-color{
     background-color: #152232!important;
     padding-bottom: 50px;
+}
+
+
+.main-pre-final{
+    margin-left: 25%!important;
+
+}
+
+.main-pre-final iframe{
+    border: none!important;
 }
 /* litarature review name page style end */
 
@@ -869,7 +879,7 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
 }
 
 .card .com-img img{
-    width: 78%;
+    width: 70%;
     height: auto;
     margin-left: 20%;
 }
@@ -884,15 +894,16 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
 .com-body p{
     text-align: justify;
     color: rgb(0, 0, 0)!important;
+    font-size: 17px!important;
 }
 
 .com-head h2{
     font-size: 4vw;
     font-weight: 700;
     color: #0a6ed2;
-    margin-top: 50px;
+    margin-top: 70px;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     text-shadow: #19a09b 0px 0px 2px;
 
 }
@@ -915,47 +926,10 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
         margin-top: 70px;
 }
 
-
-
-.main-pre input{
-    margin-left: 2%;
-    
+.main-pre a{
+    text-decoration: none  !important;
 }
 
-.main-pre label{
-    font-size: 18px!important;
-    color: rgb(0, 0, 0)!important;
-    margin-left: 0.5%;
-}
-
-.age-div label{
-    font-size: 22px!important;
-    color: rgb(0, 0, 0)!important;
-    margin-left: 0.5%;
-    font-weight: 500;
-}
-
-
-.btn-div input[type="submit"] {
-    background-color: #007bff;
-    color: #fff;
-    border-radius: 4px;
-    padding: 8px 16px;
-    border: none;
-    cursor: pointer;
-    font-size: 18px;
-    font-weight: 500;
-  }
-  
-.btn-div input[type="submit"]:hover {
-    background-color: #0062cc;
-  }
-
-  .btn-div{
-        margin-top: 10px;
-        margin-bottom: 50px;
-        text-align: center;
-  }
 
 
 
@@ -989,6 +963,13 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
     color: #0a6ed2;
     margin-top: 30px;
     margin-left: 10%;
+}
+
+/* survey result */
+.simg{
+    margin-top: 15px!important;
+    text-align: center;
+    align-items: center;
 }
 
 
