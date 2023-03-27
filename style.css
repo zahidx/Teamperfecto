@@ -929,13 +929,14 @@ iframe{
 
 /* block diagram section */
 .block-haed-img img{
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 50px;
     text-align: center;
-    width: 90%;
+    width: 70%;
     height: 85%;
-    margin-left: 30px;
+    margin-left: 195px!important;
 }
+
 
 .block-haed h2{
     margin-top: 70px;
@@ -1001,6 +1002,48 @@ iframe{
     border-radius: 0px 0px 15px 15px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+/* dht sensor pages */
+.dht_div{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.dht_div img{
+    align-items: center;
+    margin-top: 20px;
+    margin-right: 450px;
+    border-radius: 10px;
+}
+
+.dht_div iframe{
+    border: none!important;
+    border-radius: 5px;
+
+}
+
+.dht_code{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.dht_code iframe{
+    border: none!important;
+    border-radius: 5px;
+
+}
+
+.temp-code iframe{
+    margin-left: 120px!important;
+}
+
+.code-img-cam{
+    text-align: center;   
+}
+
+
 
 
 
